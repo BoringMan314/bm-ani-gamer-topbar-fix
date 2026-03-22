@@ -4,8 +4,6 @@
 
 適用 **Google Chrome**（Manifest V3）的擴充功能，修正 [巴哈姆特動畫瘋](https://ani.gamer.com.tw/) 在 **劇院模式** 下，網站頂部導覽列於 **暫停、停止或播畢後無法再次顯示** 的問題。播放進行中仍維持與官方相同的隱藏行為，不會因滑鼠掠過而強制拉出頂欄。
 
-同系列風格可參考：[bm.ani.gamer.3x](https://github.com/BoringMan314/bm.ani.gamer.3x)（倍速選單）。
-
 ---
 
 ## English
