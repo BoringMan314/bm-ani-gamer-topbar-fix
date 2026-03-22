@@ -1,0 +1,10 @@
+{
+  "extName": {
+    "message": "[B.M] アニメ瘋 シアターモード上部バー修正",
+    "description": "拡張機能名（日本語）"
+  },
+  "extDescription": {
+    "message": "アニメ瘋（ani.gamer.com.tw）のシアターモードで、一時停止・停止・再生終了後に上部バーが再表示されない問題を修正します。",
+    "description": "拡張機能の説明（日本語）"
+  }
+}

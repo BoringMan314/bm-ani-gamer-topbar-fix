@@ -1,0 +1,20 @@
+/**
+ * 劇院模式：.top_sky.fullwindow-unlock.fullwindow 會將頂欄移出畫面；
+ * 站方在暫停時未移除 fullwindow，以 .ag-ani-theater-reveal-top 覆寫還原。
+ */
+.top_sky.fullwindow-unlock.fullwindow.ag-ani-theater-reveal-top {
+  transform: translateY(0) !important;
+  height: 100px !important;
+}
+
+@media screen and (max-width: 1000px) {
+  .top_sky.fullwindow-unlock.fullwindow.ag-ani-theater-reveal-top {
+    height: 75px !important;
+  }
+}
+
+/* 暫停／結束時避免 .vjs-title-bar 卡在 opacity:0 */
+.video-js.vjs-paused .vjs-title-bar,
+.video-js.vjs-ended .vjs-title-bar {
+  opacity: 1 !important;
+}
