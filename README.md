@@ -33,8 +33,8 @@ Chrome extension (MV3) for **Bahamut Anime Crazy** (`ani.gamer.com.tw`). In **th
 ## 安裝（開發模式）
 
 ```bash
-git clone https://github.com/BoringMan314/bm.ani.gamer.topbar.fix.git
-cd bm.ani.gamer.topbar.fix   # 若下載 ZIP，請改為進入解壓後含 manifest.json 的資料夾
+git clone https://github.com/BoringMan314/bm-ani-gamer-topbar-fix.git
+cd bm-ani-gamer-topbar-fix   # 若下載 ZIP，請改為進入解壓後含 manifest.json 的資料夾
 ```
 
 1. 開啟 Chrome，前往 `chrome://extensions/`  
@@ -75,7 +75,7 @@ README.md
 
 ## 問題與貢獻
 
-若動畫瘋改版導致失效，歡迎開 [Issue](https://github.com/BoringMan314/bm.ani.gamer.topbar.fix/issues) 描述重現步驟（含瀏覽器版本、是否劇院模式）。Pull Request 亦歡迎，請維持變更範圍精簡、與現有程式風格一致。
+若動畫瘋改版導致失效，歡迎開 [Issue](https://github.com/BoringMan314/bm-ani-gamer-topbar-fix/issues) 描述重現步驟（含瀏覽器版本、是否劇院模式）。Pull Request 亦歡迎，請維持變更範圍精簡、與現有程式風格一致。
 
 ## 免責聲明
 
