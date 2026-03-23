@@ -8,8 +8,6 @@
 
 *English: In **theater mode** on Bahamut Anime Crazy (`ani.gamer.com.tw`), fixes the **top bar not reappearing** after **pause, stop (emptied), or end of playback**; while playing, hiding stays aligned with the official site.*
 
-同系列可參考：[bm.ani.gamer.3x](https://github.com/BoringMan314/bm.ani.gamer.3x)（倍速選單）。
-
 > **聲明**：本專案為第三方輔助工具，與動畫瘋／巴哈姆特官方無關。使用請遵守該站服務條款與著作權規範。
 
 ![劇院模式下頂部列顯示修正示意](screenshot/screenshot_1280x640.png)
