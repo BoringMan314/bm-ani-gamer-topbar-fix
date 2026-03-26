@@ -10,7 +10,7 @@
 
 > **聲明**：本專案為第三方輔助工具，與動畫瘋／巴哈姆特官方無關。使用請遵守該站服務條款與著作權規範。
 
-![劇院模式下頂部列顯示修正示意](screenshot/screenshot_1280x640.png)
+![劇院模式下頂部列顯示修正示意](screenshot/screenshot_1280x800.png)
 
 ---
 
@@ -91,7 +91,7 @@
 |------|----------------|
 | `screenshot_440x280.png` | 小型宣傳圖 |
 | `screenshot_1280x800.png` | 單一螢幕截圖（寬螢幕） |
-| `screenshot_1280x640.png` | README／說明用 |
+| `screenshot_1280x800.psd` | 寬螢幕截圖之可編輯原始檔 |
 | `screenshot_1400x560.png` | 大型宣傳圖 |
 
 ---
