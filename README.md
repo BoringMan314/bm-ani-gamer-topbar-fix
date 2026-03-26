@@ -28,6 +28,8 @@
 - [授權](#授權)
 - [問題與建議](#問題與建議)
 
+---
+
 ## 功能
 
 - 在劇院模式且影片 **暫停**、**ended（播畢）** 或 **emptied（停止載入）** 時，讓網站 **`.top_sky`** 頂部區塊恢復可見（透過 [`content.css`](content.css) 覆寫 `fullwindow` 位移）。
@@ -35,9 +37,13 @@
 - 僅在 **`https://ani.gamer.com.tw/*`** 載入；[`manifest.json`](manifest.json) 未宣告 `host_permissions`，不額外請求其他網域。
 - 若動畫瘋改版 DOM／class，可能需調整 [`content.js`](content.js) 的選取與同步邏輯。
 
+---
+
 ## 系統需求
 
 - **Chrome** 或 **Microsoft Edge**（Chromium）等支援 **Manifest V3** 的瀏覽器。
+
+---
 
 ## 安裝方式
 
@@ -52,14 +58,20 @@
 3. 開啟「開發人員模式」→「載入未封裝項目」→ 選取含 [`manifest.json`](manifest.json) 的**專案根目錄**。
 4. 開啟動畫瘋任一有影片的頁面，切換 **劇院模式（T）**，暫停或播畢後確認頂部列可再次顯示。
 
+---
+
 ## 本機開發與測試
 
 修改 [`content.js`](content.js)／[`content.css`](content.css) 後，在 `chrome://extensions` 對本擴充按 **重新載入**，再重新整理動畫瘋分頁即可驗證。
+
+---
 
 ## 技術概要
 
 - **內容腳本** [`content.js`](content.js) 在符合網址的頁面執行：監聽影片 `play`／`pause`／`ended`／`emptied` 等事件，並以 **MutationObserver** 因應 DOM 變化，對 **`.top_sky`** 切換輔助 class。
 - **樣式** [`content.css`](content.css) 在暫停／結束等狀態下覆寫站方劇院模式對頂欄的位移，並修正 **`.vjs-title-bar`** 透明度。
+
+---
 
 ## 專案結構
 
@@ -82,16 +94,22 @@
 | `screenshot_1280x640.png` | README／說明用 |
 | `screenshot_1400x560.png` | 大型宣傳圖 |
 
+---
+
 ## 版本與多語系
 
 - 版本號：[`manifest.json`](manifest.json) 的 `version`。
 - 預設語系：`zh_TW`（`default_locale`）。
+
+---
 
 ## 隱私
 
 本擴充**不蒐集、不上傳**個人資料；未使用分析或遠端程式碼。詳見 [`privacy-policy.html`](privacy-policy.html)。
 
 **上架 Chrome Web Store 時**，後台須填寫隱私實踐，並提供該政策頁面的**公開 HTTPS URL**（可將 `privacy-policy.html` 託管於 [GitHub Pages](https://pages.github.com/) 等）。
+
+---
 
 ## 維護者：更新 GitHub 與 Chrome 線上應用程式商店
 
@@ -118,9 +136,13 @@ git push origin main
 
 首次上架另須完成 Google 開發人員註冊與一次性費用等（以 [官方說明](https://developer.chrome.com/docs/webstore/register) 為準）。
 
+---
+
 ## 授權
 
 本專案以 [MIT License](LICENSE) 授權。
+
+---
 
 ## 問題與建議
 
