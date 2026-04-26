@@ -1,8 +1,3 @@
-/**
- * 劇院模式：.top_sky.fullwindow-unlock.fullwindow 會將頂欄移出畫面；
- * 播畢時改由 content.js 暫時移除 fullwindow-unlock，恢復未開播時的上下排版；
- * 暫停時則靠此 class + 游標靠上（腳本）覆寫 translate，拉出頂欄。
- */
 .top_sky.fullwindow-unlock.fullwindow.ag-ani-theater-reveal-top {
   transform: translateY(0) !important;
   height: 100px !important;
@@ -14,7 +9,6 @@
   }
 }
 
-/* 暫停／結束時避免 .vjs-title-bar 卡在 opacity:0 */
 .video-js.vjs-paused .vjs-title-bar,
 .video-js.vjs-ended .vjs-title-bar {
   opacity: 1 !important;

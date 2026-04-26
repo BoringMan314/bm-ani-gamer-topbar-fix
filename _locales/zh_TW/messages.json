@@ -1,10 +1,10 @@
 {
-  "extName": {
-    "message": "[B.M] 動畫瘋 劇院模式頂部列修正",
-    "description": "擴充功能名稱（繁體中文）"
-  },
   "extDescription": {
     "message": "修正在動畫瘋（ani.gamer.com.tw）劇院模式下，頂部列在暫停、停止或播畢後無法再次顯示的問題。",
     "description": "擴充功能簡介（繁體中文）"
+  },
+  "extName": {
+    "message": "[B.M] 動畫瘋 劇院模式頂部列修正",
+    "description": "擴充功能名稱（繁體中文）"
   }
 }

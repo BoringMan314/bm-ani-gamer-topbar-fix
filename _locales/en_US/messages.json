@@ -1,10 +1,10 @@
 {
-  "extName": {
-    "message": "[B.M] Bahamut Anime Crazy — theater mode top bar fix",
-    "description": "Extension name (English)"
-  },
   "extDescription": {
     "message": "Fixes the issue where the top bar does not reappear after pause, stop, or end of playback in theater mode on Bahamut Anime Crazy (ani.gamer.com.tw).",
     "description": "Extension description (English)"
+  },
+  "extName": {
+    "message": "[B.M] Bahamut Anime Crazy — theater mode top bar fix",
+    "description": "Extension name (English)"
   }
 }
