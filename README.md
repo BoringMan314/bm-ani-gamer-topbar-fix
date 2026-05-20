@@ -3,6 +3,7 @@
 [![Manifest V3](https://img.shields.io/badge/Manifest-V3-blue)](https://developer.chrome.com/docs/extensions/mv3/)
 [![Site](https://img.shields.io/badge/site-ani.gamer.com.tw-5865F2)](https://ani.gamer.com.tw)
 [![GitHub](https://img.shields.io/badge/GitHub-bm--ani--gamer--topbar--fix-181717?logo=github)](https://github.com/BoringMan314/bm-ani-gamer-topbar-fix)
+[![GitHub all releases](https://img.shields.io/github/downloads/BoringMan314/bm-ani-gamer-topbar-fix/total)](https://github.com/BoringMan314/bm-ani-gamer-topbar-fix/releases)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 適用於 [巴哈姆特動畫瘋](https://ani.gamer.com.tw)（`ani.gamer.com.tw`）的瀏覽器擴充功能：在 **劇院（全螢幕）模式** 下，修正網站 **頂部導覽列** 在 **暫停、停止載入（emptied）或播畢（ended）後無法再次顯示** 的問題。
