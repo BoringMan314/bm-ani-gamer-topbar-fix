@@ -1,15 +1,15 @@
-.top_sky.fullwindow-unlock.fullwindow.ag-ani-theater-reveal-top {
+html.ag-topbar-standalone .top_sky.fullwindow-unlock.fullwindow.ag-ani-theater-reveal-top {
   transform: translateY(0) !important;
   height: 100px !important;
 }
 
 @media screen and (max-width: 1000px) {
-  .top_sky.fullwindow-unlock.fullwindow.ag-ani-theater-reveal-top {
+  html.ag-topbar-standalone .top_sky.fullwindow-unlock.fullwindow.ag-ani-theater-reveal-top {
     height: 75px !important;
   }
 }
 
-.video-js.vjs-paused .vjs-title-bar,
-.video-js.vjs-ended .vjs-title-bar {
+html.ag-topbar-standalone .video-js.vjs-paused .vjs-title-bar,
+html.ag-topbar-standalone .video-js.vjs-ended .vjs-title-bar {
   opacity: 1 !important;
 }

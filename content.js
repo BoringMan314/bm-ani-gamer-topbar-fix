@@ -143,7 +143,11 @@
 		});
 	}
 
-	attachPointerListeners();
-	attachDomObservers();
-	reconcile();
+	document.documentElement.setAttribute('data-bm-ani-topbar-standalone', '1');
+	if (document.documentElement.getAttribute('data-bm-ani-tool') !== '1') {
+		document.documentElement.classList.add('ag-topbar-standalone');
+		attachPointerListeners();
+		attachDomObservers();
+		reconcile();
+	}
 })();
